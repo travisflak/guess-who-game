@@ -29,7 +29,7 @@ var people = [
   },
   {
     name: 'Matt',
-    githubUsername: 'Matthewwharrisak'
+    githubUsername: 'Matthewharrisak'
   },
   {
     name: 'Travis',
