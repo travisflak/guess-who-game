@@ -18,7 +18,7 @@ function onReady(){ //this was appears upon page load
     }
     $('#randomName').append(people[random].name);//pulling in the random images id and appending the person's random name to the DOM
     $('.picture').on('click', function(){ //event listener on click it runs the function with a conditional
-        if($(this).data('name')===people[random].name){
+        if($(this).data('name')===people[random].name){//this conditional compares the persons name with the image
             alert('yay! You are correct!')
         }else{
             alert('try again!')
