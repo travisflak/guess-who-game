@@ -7,12 +7,16 @@ function onReady(){
     for(people of people){
         $('#target').append(`
             <div>
-                <img src="https://github.com/${people.githubUsername}.png?size=250"alt="Profile image of Chris"></img>
-
-
+                <img src="https://github.com/${people.githubUsername}.png?size=250"
+                alt="Profile image of Chris"></img>
+            </div>
         `)
     }
 
 }
 
 //put this inside of a function and use string interpolation?
+
+function randomNumber(min, max){
+    return Math.floor(Math.random() * (1 + max - min) + min);
+}
